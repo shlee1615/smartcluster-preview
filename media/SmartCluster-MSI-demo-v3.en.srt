@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:06,000
+Five online nodes. This task connects the Mac and MSI.
+
+2
+00:00:06,000 --> 00:00:10,000
+The lead agent checks available computers through MCP.
+
+3
+00:00:10,000 --> 00:00:20,000
+Ask Claude on MSI to review Orbit and return three recommendations.
+
+4
+00:00:20,000 --> 00:00:24,000
+The actual MSI Windows desktop and Task Manager.
+
+5
+00:00:24,000 --> 00:00:32,000
+Claude Code is visible. Task status is checked against the Hub record.
+
+6
+00:00:32,000 --> 00:00:37,000
+The process list changes. Next, return to the Mac for the result.
+
+7
+00:00:37,000 --> 00:00:45,000
+The lead agent retrieves the full review and three recommendations.
+
+8
+00:00:45,000 --> 00:00:51,000
+Initiator: Mac mini M4. Execution: MSI. Status: Completed.
+
+9
+00:00:51,000 --> 00:00:56,000
+The Hub preserves task receipt and result delivery by MSI.
+
+10
+00:00:56,000 --> 00:01:00,000
+SmartCluster · Delegate in chat. Finish on another computer.
