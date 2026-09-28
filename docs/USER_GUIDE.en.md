@@ -18,7 +18,7 @@ A **Hub** hosts a group and stores coordination state. A **Node** participates i
 
 ## 1. Get and launch the candidate
 
-Public downloads are not available yet. If the maintainer has supplied a candidate, verify its source, version, and SHA256SUMS, then extract SmartCluster.exe to a stable folder. The executable packages the product's Python runtime; clean-machine acceptance is still pending.
+Download the [Windows x64 preview ZIP](https://github.com/shlee1615/smartcluster-preview/releases/tag/v0.11.0.dev3), verify its source, version, and SHA256SUMS, then extract the entire package to a stable folder. Double-click SmartCluster.exe. This is an experimental public trial, not a production release. The executable packages the product's Python runtime; clean-machine acceptance is still pending.
 
 ```powershell
 Get-FileHash .\SmartCluster.exe -Algorithm SHA256

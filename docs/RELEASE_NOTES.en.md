@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [繁體中文](RELEASE_NOTES.zh-TW.md)
 
-Updated September 28, 2026. **0.11.0.dev3 is a development preview candidate, not a public release.** This is a status document, not a launch announcement.
+Updated September 28, 2026. **0.11.0.dev3 is a development preview candidate, available as an experimental public pre-release.** This is a status document, not a launch announcement.
 
 ## New in dev3
 
@@ -33,8 +33,8 @@ Counts from different runs or subsets must not be added into a new full-regressi
 - No ownership transfer, person-based group roles, complete formal leave/dissolve workflow, machine-wide intake coordination across registries, automatic updater, or redacted-export UI.
 - Idle App wake-up is not guaranteed. Service health, provider configuration, and App intake require separate checks.
 
-## Before public downloads
+## Public trial download
 
-Source-confidentiality hold: the current dev3 EXE embeds 29 readable web assets identical to source, alongside product Python bytecode. It will not be distributed publicly under the current confidentiality requirement. See the [packaging explanation](FAQ.en.md#does-executable-only-distribution-hide-the-implementation). The showcase package contains documentation and media only.
+[Windows x64 ZIP and checksums](https://github.com/shlee1615/smartcluster-preview/releases/tag/v0.11.0.dev3). Extract the entire package and run SmartCluster.exe. The owner has authorized public trial distribution with the current limitations disclosed. This is unsigned and has not passed independent clean-machine acceptance; it is not a production release. Collected dependency notices are preliminary and full dependency review and commercial terms remain unfinished.
 
-Complete bundled third-party notices and product evaluation terms, resolve signing/distribution handling, and pass independent clean-machine acceptance. The dev3 internal package includes bilingual guides, media, preliminary notices, and SHA-256 hashes. Public downloads remain on hold. This public repository provides documentation and media only; executable downloads remain unavailable.
+The EXE embeds 29 readable web assets and product Python bytecode. Packaging does not prevent extraction or reverse engineering. No standalone Python source, invitations, keys, or private state are attached. GitHub's automatic source archives contain this documentation/media repository, not the private product project.

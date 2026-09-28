@@ -18,7 +18,7 @@
 
 ## 1. 取得與啟動
 
-公開下載尚未開放。若已取得維護者提供的候選包，先核對版本、來源及 SHA256SUMS，再將 SmartCluster.exe 解壓到固定資料夾。執行檔版不需自行安裝產品 Python 環境；乾淨機驗收仍待完成。
+請由 [GitHub Releases](https://github.com/shlee1615/smartcluster-preview/releases/tag/v0.11.0.dev3) 下載 Windows x64 預覽 ZIP，核對版本、來源及 SHA256SUMS，完整解壓到固定資料夾後雙擊 SmartCluster.exe。此為公開實驗試用，不是正式生產版本。執行檔版不需自行安裝產品 Python 環境；乾淨機驗收仍待完成。
 
 ```powershell
 Get-FileHash .\SmartCluster.exe -Algorithm SHA256

@@ -16,4 +16,4 @@ Acceptance should include successful and failed work, cancellation state, discon
 - Improve update, recovery, and redacted diagnostics workflows.
 - Evaluate richer group administration and person-based roles separately from current device authentication.
 
-Before public binary distribution, the current candidate still needs completed dependency notices and product terms, signing/distribution decisions, and clean-machine acceptance. See [release status](RELEASE_NOTES.en.md).
+For a production release, the current public trial still needs completed dependency notices and product terms, signing/distribution decisions, and clean-machine acceptance. See [release status](RELEASE_NOTES.en.md).
