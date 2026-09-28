@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="452" viewBox="0 0 1200 452" role="img" aria-labelledby="title desc">
+    <title id="title">從一句要求，到跨電腦完成。</title><desc id="desc">流程示意・本機 stdio MCP → 節點 → 任務結果</desc>
+    <style>text{font-family:Segoe UI,Microsoft JhengHei,Noto Sans,sans-serif}.title{font-size:42px;font-weight:700;fill:#f1f6f8}.sub{font-size:18px;fill:#70e2c5}.num{font-size:16px;fill:#70e2c5}.label{font-size:30px;font-weight:700;fill:#f1f6f8}.desc{font-size:20px;fill:#c4d4dd}</style>
+    <rect width="1200" height="452" rx="24" fill="#0b1c2a"/>
+    <path d="M1084 32h60v60" fill="none" stroke="#70e2c5" stroke-width="4"/>
+    <text x="56" y="65" class="sub">SmartCluster / 從 AI 對話操作協作系統</text>
+    <text x="56" y="134" class="title">從一句要求，到跨電腦完成。</text><rect x="56" y="202" width="348" height="174" rx="18" fill="#142b3c" stroke="#294657"/>
+        <text x="80" y="242" class="num">01</text>
+        <text x="80" y="291" class="label">查詢</text>
+        <text x="80" y="334" class="desc">找到可用的節點</text><path d="M413 286h14m-5-5 5 5-5 5" fill="none" stroke="#70e2c5" stroke-width="2"/><rect x="436" y="202" width="348" height="174" rx="18" fill="#142b3c" stroke="#294657"/>
+        <text x="460" y="242" class="num">02</text>
+        <text x="460" y="291" class="label">派工</text>
+        <text x="460" y="334" class="desc">提交已授權的工作</text><path d="M793 286h14m-5-5 5 5-5 5" fill="none" stroke="#70e2c5" stroke-width="2"/><rect x="816" y="202" width="348" height="174" rx="18" fill="#142b3c" stroke="#294657"/>
+        <text x="840" y="242" class="num">03</text>
+        <text x="840" y="291" class="label">核對</text>
+        <text x="840" y="334" class="desc">讀取真實任務結果</text>
+    <text x="56" y="419" font-size="16" fill="#9ab0be">流程示意・本機 stdio MCP → 節點 → 任務結果</text></svg>
