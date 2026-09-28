@@ -16,7 +16,11 @@
 
 ## 從這裡開始
 
-**目前為 Windows x64 0.11.0.dev3 開發預覽候選版，尚未提供公開下載。** 候選版尚未簽署，也未通過乾淨機發佈驗收。試用前請先閱讀[版本狀態](docs/RELEASE_NOTES.zh-TW.md)。
+**目前為 Windows x64 0.11.0.dev3 開發預覽候選版，已開放試用下載。**
+
+[下載 Windows x64 試用 ZIP](https://github.com/shlee1615/smartcluster-preview/releases/download/v0.11.0.dev3/SmartCluster-0.11.0.dev3-windows-x64-preview.zip) · [版本與校驗碼](https://github.com/shlee1615/smartcluster-preview/releases/tag/v0.11.0.dev3)
+
+候選版尚未簽署，也未通過乾淨機發佈驗收。試用前請先閱讀[版本狀態](docs/RELEASE_NOTES.zh-TW.md)。
 
 1. [閱讀使用手冊](docs/USER_GUIDE.zh-TW.md)：首次啟動、群組、MCP 與第一個完成的任務。
 2. [查看常見問題](docs/FAQ.zh-TW.md)：AI 帳號、授權、App 收件與恢復。
@@ -46,4 +50,4 @@
 
 2026 年 9 月 28 日，以 Mac mini M4 的私有原始碼測試版建立新群，Windows 執行檔透過 LAN 加入。mTLS 配對、診斷往返、重複請求處理與節點重啟後的佇列恢復通過。這不代表 macOS 執行檔或新版 WAN 已達公開發佈標準。[驗證範圍與已知問題](docs/RELEASE_NOTES.zh-TW.md)
 
-此目錄供公開文件及媒體使用；執行檔待就緒後由 Releases 另行提供，不含產品原始碼。執行檔封裝不保證無法逆向。產品授權及商業支援條款尚未公布。
+此目錄供公開文件及媒體使用；執行檔試用包由 Releases 另行提供。不另附 Python 原始檔，但 EXE 內含可讀網頁資產及 Python 位元組碼。執行檔封裝不保證無法逆向。產品授權及商業支援條款尚未公布。

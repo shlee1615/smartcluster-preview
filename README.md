@@ -16,7 +16,7 @@ Ask which computers are available. Send a task to an authorized Claude or Codex 
 
 ## Start here
 
-**Development preview candidate: 0.11.0.dev3, Windows x64.** A public download is not available yet. The candidate is unsigned and has not passed clean-machine release acceptance. See [release status](docs/RELEASE_NOTES.en.md) before planning a trial.
+**Development preview candidate: 0.11.0.dev3, Windows x64.** [Download the Windows x64 trial ZIP](https://github.com/shlee1615/smartcluster-preview/releases/download/v0.11.0.dev3/SmartCluster-0.11.0.dev3-windows-x64-preview.zip) · [Release notes and checksums](https://github.com/shlee1615/smartcluster-preview/releases/tag/v0.11.0.dev3). The candidate is unsigned and has not passed clean-machine release acceptance. See [release status](docs/RELEASE_NOTES.en.md) before planning a trial.
 
 1. [Read the user guide](docs/USER_GUIDE.en.md): first launch, groups, MCP, and your first completed task.
 2. [Check the FAQ](docs/FAQ.en.md): AI accounts, permissions, App intake, and recovery.
@@ -46,4 +46,4 @@ The second example uses the selected computer's AI account and allowance. Group 
 
 On September 28, 2026, a Mac mini M4 running the private source test build hosted a new group. A Windows executable joined over LAN. mTLS enrollment, diagnostic round trips, duplicate-request handling, and queued-task recovery after a node restart passed. This does not establish macOS executable support or current-version WAN release readiness. [Verification scope and known issues](docs/RELEASE_NOTES.en.md)
 
-This repository is intended for documentation and media, with executable packages distributed separately through Releases when ready. Product source code is not included. Packaging does not guarantee protection against reverse engineering. Product licensing and commercial support terms are not yet published.
+This repository is intended for documentation and media, with the executable trial distributed separately through Releases. No standalone Python source files are published; the EXE embeds readable web assets and Python bytecode. Packaging does not guarantee protection against reverse engineering. Product licensing and commercial support terms are not yet published.
