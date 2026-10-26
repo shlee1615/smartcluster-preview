@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:07,000
+More AI tools? More computers? Let’s get them working together.
+
+2
+00:00:07,000 --> 00:00:17,000
+Choose an authorized computer. Hand over the task. Follow who received it, what changed, and how it turned out.
+
+3
+00:00:17,000 --> 00:00:28,000
+Codex, Claude, Gemini, and your own agent. Connect familiar tools, continue the conversation, and choose the right model for the work.
+
+4
+00:00:28,000 --> 00:00:41,000
+On a configured node, the Gemini desktop App receives work, writes files and runs tests. Keep the App open; its native tool approvals still apply.
+
+5
+00:00:41,000 --> 00:00:53,000
+Acceptance records show five Gemini desktop tests passed. The CTE bridge completed isolated changes and successful tests. The original project stayed unchanged.
+
+6
+00:00:53,000 --> 00:01:00,000
+Your tools. Your computers. Start with the quick guide. SmartCluster Preview Two.

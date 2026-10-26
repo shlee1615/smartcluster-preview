@@ -1,6 +1,47 @@
-# Watch the workflow
+# Preview 2: from request to verifiable result
 
-[Home](../README.md) · [繁體中文](DEMO.zh-TW.md) · [Setup guide](USER_GUIDE.en.md)
+[Home](../README.md) · [繁體中文](DEMO.zh-TW.md) · [Live website](https://smartcluster.pages.dev/preview2/?lang=en#native-film) · [Offline introduction](../preview2/index.html?lang=en)
+
+## See the Hub. Follow the agents. (120 seconds)
+
+[Watch the English relay film](../preview2/media/smartcluster-native-demo.en.mp4) · [Captions](../preview2/media/smartcluster-native-demo.en.srt) · [繁體中文 video](../preview2/media/smartcluster-native-demo.zh-TW.mp4) · [Website](../preview2/index.html?lang=en#native-film)
+
+Two $100 items with 20% off incorrectly total $199.80. Codex App delegates through SmartCluster. Gemini receives the job in Antigravity, reads the project, changes one formula and runs the existing five tests. The same Python checkout service returns $160.00. The official Claude CLI reviews this exact diff and test evidence, and the original Codex conversation receives the results.
+
+One formal repair run: four failures before the fix, all five tests passing afterward, with the test-file hash unchanged. An independent rerun and the checkout API agree. Claude finds no must-fix issues for this change; input validation and monetary precision are out-of-scope suggestions. This is not acceptance of a complete commercial payment system.
+
+This edition adds 36 seconds of real English Hub screenshots: the node map, provider details and a closing overview. These are user-provided captures showing their captured state, not a recording of this repair. Other visible nodes did not execute this case. The website also includes enlarged Hub screenshots.
+
+The repair was run again with English task titles, English instructions and English results in the actual Antigravity App. English checkout-page stills and completed native tool history belong to this new run. Claude's official CLI review and returned results are presented as clearly marked editorial summaries, not a recreated App interface. Native approvals were performed by the user; waiting and approval screens are omitted.
+
+Both editions share the same English demo visuals: choose English narration/captions or Traditional Chinese explanation. Each is 120 seconds, 1080p and 24 fps, with crops, neural narration (not human recordings) and original music. This local development demonstration is not a speed benchmark or acceptance of separate computers or the Python-free binary. Agents remain independently usable; SmartCluster adds optional coordination. The separate 60-second animation remains below.
+
+## 60-second explanatory animation
+
+[Watch the new English video](../preview2/media/smartcluster-preview2.en.mp4) · [Subtitles](../preview2/media/smartcluster-preview2.en.srt) · [繁體中文 video](../preview2/media/smartcluster-preview2.zh-TW.mp4)
+
+The new, approximately one-minute motion-graphics introduction shows a SmartCluster workflow: choose an authorized node and agent, dispatch and execute, then inspect file changes, tests and reporting. This is **an explanatory animation, not a product screen recording**. The page's interactive illustration submits no real work. Native App waiting and approval requirements still apply.
+
+Taiwan Mandarin and English versions include neural synthetic narration (not human recordings), on-screen captions and separate SRT/VTT captions. Narration uses natural pacing and pauses without accelerated speech.
+
+dev5 adds moving task handoffs, message cues and a quiet original soundtrack that ducks under narration. Six chapter buttons seek without autoplay. Decorative page motion can be paused. Quick start provides practical guidance for three goals.
+
+## Six ideas in the new introduction
+
+1. Start with a clear request.
+2. Let the Hub route work to an authorized computer.
+3. Choose Codex, Claude, Gemini or a custom bridge according to capability.
+4. Use a supported execution channel for file editing and tests.
+5. Verify the result of the same task instead of treating submission as completion.
+6. Understand Preview 2's supported scope before starting your own trial.
+
+## What has live evidence?
+
+The Primary development deployment has acceptance evidence for Gemini analysis/continuation, automatic desktop intake, file editing, five unittest cases and reporting; and for a CTE bridge isolated-worktree edit, unittest exit 0 and completion reporting. These summaries describe recorded results, not full capability acceptance of the new Windows binary. This package does not provide local isolated development or Gemini automatic-intake installation; a capable execution node is required. See the [release capability matrix](RELEASE_NOTES.en.md).
+
+## Historical cross-computer recording (September 2026)
+
+The following scene notes describe the earlier 60-second recording, separately from the Preview 2 animation. It is not acceptance of the new package.
 
 [Watch the English-captioned demo](../media/SmartCluster-MSI-demo-v3.en.mp4) · [Subtitles](../media/SmartCluster-MSI-demo-v3.en.srt)
 

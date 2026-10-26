@@ -2,7 +2,7 @@
 
 [首頁](../README.zh-TW.md) · [English](WAN.en.md) · [使用手冊](USER_GUIDE.zh-TW.md)
 
-第一預覽版提供 Tailscale 設定指引，沒有代管 VPN。新版 LAN 跨機測試已通過；舊版有 Tailscale 限定試點，但新版 WAN 及長時間運作尚待驗收。
+Preview 2 提供 Tailscale 設定指引，沒有代管 VPN。本候選的驗收為同機隔離多群組／mTLS smoke；新版 LAN 跨實體機、WAN 及長時間運作仍待驗收。舊版 LAN 與 Tailscale 限定試點屬歷史紀錄，不能代替本候選驗收。
 
 ## 帳號與責任
 

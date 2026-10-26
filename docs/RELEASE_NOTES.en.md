@@ -1,40 +1,71 @@
-# Release Status and Verification Scope
+# Preview 2: release status and verification scope
 
 [Home](../README.md) · [繁體中文](RELEASE_NOTES.zh-TW.md)
 
-Updated September 28, 2026. **0.11.0.dev3 is a development preview candidate, available as an experimental public pre-release.** This is a status document, not a launch announcement.
+Updated October 26, 2026. **The Preview 2 introduction website is public; the 0.14.0.dev5 Windows x64 program remains an invite-only candidate, not a public binary release.** Build and acceptance evidence must identify the same version, commit and package hash.
 
-## New in dev3
+## Public website update · October 26
 
-The Windows candidate has been rebuilt with the invitation group-name fix. Its executable preserves `Work Group` in invitations. Nine same-host, isolated-process smoke scenarios passed, including fixed-profile MCP, TLS joining/retry, diagnostics, group isolation, intake switching, and the English name. The Hub reports dev3. These checks do not establish independent clean-machine acceptance or mixed-version interoperability. Third-party texts and actual bundle inventory have been collected; the complete dependency review and product terms remain pending. The included film shows an earlier development session.
+- [Live English website](https://smartcluster.pages.dev/preview2/?lang=en) · [繁體中文](https://smartcluster.pages.dev/preview2/?lang=zh-TW).
+- Adds the 120-second English native App case with English/Chinese narration and captions, 36 seconds of captured Hub views, and an enlarged Hub gallery. Retains the separate 60-second animation.
+- The public repository contains introduction pages, documentation and edited media only. This update publishes no new program binary, product source, credentials or conversation history. Existing historical release assets are unchanged.
 
-## Available capabilities
+## dev5 refresh
 
-A Windows x64 executable; group creation, enrollment, viewing, and service controls; draining intake switches within one registry; explicitly profile-bound stdio MCP; built-in diagnostics; existing collaboration tasks and App receivers. Cross-computer transport uses implemented mTLS.
+- Adds three quick-start goals: local trial, joining a group and configuring Gemini/CTE. These are reading guides, not connection or authorization changes.
+- Adds pausable task-motion graphics and honors reduced-motion preferences. Six video chapter buttons seek without starting audio.
+- Refreshes both films with livelier scenes, natural narration, synchronized captions and an original quiet soundtrack that ducks under speech.
+- Removes the obsolete 0.11 sidebar label; the header identifies 0.14.0.dev5. Core agent behavior and deployment capabilities remain those of dev4.
 
-## Completed verification
+## Highlights
 
-| Scope | Evidence and limits |
+- Use one Hub to query, dispatch to and retrieve results from authorized Codex, Claude, Gemini and custom-agent bridge deployments.
+- Gemini analysis, persistent conversations, bounded delegation, model selection and automatic desktop App intake have been accepted on a supported development deployment.
+- CTE-Codex bridge editing, tests and reporting have been accepted in isolated worktrees on a supported development deployment. Changes remain for review; they are not automatically merged.
+- New offline bilingual introduction and videos. Interactive flows and motion graphics are illustrative; live acceptance evidence is identified separately.
+- Retains Windows onedir packaging, background sign-in startup, multiple groups and manual updates. Product source code is not distributed.
+
+## Package and execution-node capabilities
+
+| Capability | This Windows binary | Existing configured development deployment |
+|---|---|---|
+| Groups, Hub management, MCP, diagnostics and supported task dispatch | Included; candidate acceptance is recorded separately | Existing acceptance evidence |
+| Codex/Claude CLI | Separate installation, sign-in and local authorization required; AI clients are not bundled | Existing evidence; capability varies by node |
+| Gemini CLI and Gemini App MCP/sidecar installation | Unsupported on this frozen Node | Accepted on Primary; requires the native App to be open and project authorization |
+| Isolated worktree editing/tests | Not executed by this frozen Node | A capable Node can accept Hub dispatch, subject to current acceptance and local authorization |
+| CTE-Codex bridge | CTE application, accounts and configuration are not bundled | Fixed bridge accepted; no sub-delegation, Hub model override or complete usage reporting |
+
+A Hub can dispatch to a capable execution node without its own binary Node gaining that capability. Source installations for configured execution nodes are not included in this trial; they are managed by the deployer. Installation forms can have different capabilities. Mixed **version** compatibility still requires explicit verification.
+
+## Acceptance record
+
+| Scope | Status and boundary |
 |---|---|
-| dev3 source regression | 248 Python tests and 33 JavaScript tests passed in the current run; not a clean-machine binary acceptance test |
-| dev3 Windows executable | Nine same-host process scenarios passed, including the English invitation name; extracted ZIP launched with project Python environment variables removed |
-| Isolated Windows processes | 20 dev2 group/release checks and executable multiprocess smoke checks passed |
-| Mac mini M4 + Windows LAN | New Mac test Hub with a Windows dev2 executable member; mTLS, diagnostic round trips, deduplication, stop/restart, and queued-task recovery passed |
-| Mac test runtime | Private source deployment; receiver reported 17 profile tests passed, not macOS executable acceptance |
-| Previous WAN pilot | Limited Tailscale testing on an older version; not dev2 WAN acceptance |
+| Preview 2 full regression | Fresh full run passed on October 26: Python 691 tests (8 skipped), JavaScript 74 passed. Evidence: `outputs/preview2-refresh-full-tests.log` |
+| Preview 2 package completeness and source exclusion | Build passed: 115 program files and 160 audited package members. Path, linked-file and public-text checks passed. Final commit and archive hash are recorded in build evidence and the external `SHA256SUMS.txt` |
+| Preview 2 same-machine isolated multi-group/mTLS smoke | Nine executable checks passed: paused intake, two-group isolation, viewing without intake switch, drain/switch, previous Hub stays online, fixed-group MCP, English invitation name, mTLS join/retry identity and member diagnostic roundtrip. Not equivalent to a clean account or two physical machines |
+| Preview 2 GUI, no-Python standard account and cross-machine acceptance | Incomplete; update only from actual results |
+| Primary development deployment, October 26 | Gemini `gemini-4-argon-medium` three-turn new/resumed conversation acceptance; Gemini desktop intake, file editing, five unittest cases and reporting; CTE bridge isolated edit, unittest exit 0 and Hub completed with the original project unchanged |
+| Earlier SmartCluster source regression | Evidence for HEAD `517ecf9`: Python 677 tests including 8 skipped, JavaScript 74 passed; not a new regression of this candidate |
+| CTE repackaging, October 26 | `0.9.9l-bridge-20261026` full `npm run check` passed; the earlier two failures were fixed. Settings, existing projects and conversations were preserved. This is separate CTE package acceptance |
+| Historical 0.13.0.dev7 binary | Build audit and same-machine isolated smoke passed; GUI/clean-account acceptance was incomplete and does not count as Preview 2 acceptance |
+| October 5 source-install cluster | MSI one-click dev5→dev6; both Macs updated manually. This does not establish binary updating |
 
-Counts from different runs or subsets must not be added into a new full-regression total. Private internal evidence files are not included here.
+Do not combine test counts across runs, subsets or products. Service availability, provider configuration, automatic App intake and completed work are separate states.
 
-## Known issues
+## Known limits
 
-- Historical dev2 issue: invitations could carry a fixed Chinese group label. dev3 includes and tests the fix; existing dev2 artifacts are unchanged. Previous Mac/Windows LAN evidence remains dev2 evidence, not a new dev3 cross-machine test.
-- Signing and clean-machine acceptance are pending. No standalone macOS executable is delivered.
-- Current-version WAN, extended stability, and complete update/rollback acceptance are pending.
-- No ownership transfer, person-based group roles, complete formal leave/dissolve workflow, machine-wide intake coordination across registries, automatic updater, or redacted-export UI.
-- Idle App wake-up is not guaranteed. Service health, provider configuration, and App intake require separate checks.
+- Unsigned; verify the ZIP hash without disabling SmartScreen or antivirus.
+- Executable updates and rollback are manual. Data upgrades and rollback require backups and version-specific acceptance.
+- No macOS executable; existing macOS deployments are assessed separately.
+- Arbitrary idle Apps are not guaranteed to wake. Gemini notification applies only to its configured native App/sidecar; other receivers use their actual intake mode.
+- Gemini App models use the native selector. Hub CLI model settings do not override the App model.
+- Native Windows Computer Use still has a browser URL-identification limitation. Passing Chrome extension Browser Use does not establish that native path as fixed.
+- Full WAN development delivery, long-running stability, other VPNs and the new cross-machine deployment still require acceptance.
+- No complete people-level role management, group-owner transfer, formal leave/dissolve flow or automatic redacted export.
 
-## Public trial download
+## Contents and trial terms
 
-[Windows x64 ZIP and checksums](https://github.com/shlee1615/smartcluster-preview/releases/tag/v0.11.0.dev3). Extract the entire package and run SmartCluster.exe. The owner has authorized public trial distribution with the current limitations disclosed. This is unsigned and has not passed independent clean-machine acceptance; it is not a production release. Collected dependency notices are preliminary and full dependency review and commercial terms remain unfinished.
+The package contains `SmartCluster/`, `README.md`, `guide/` (including `preview2/index.html` and media), `notices/`, and `SHA256SUMS.txt`. It excludes product Python/TypeScript sources, development tools, invitations, credentials and private databases. Normal HTML/CSS/JavaScript and Python bytecode remain readable or analyzable; packaging is not reverse-engineering protection.
 
-The EXE embeds 29 readable web assets and product Python bytecode. Packaging does not prevent extraction or reverse engineering. No standalone Python source, invitations, keys, or private state are attached. GitHub's automatic source archives contain this documentation/media repository, not the private product project.
+For evaluation by invited testers only; do not redistribute. Provided as is; do not use production data or unbacked-up environments. The inviter supplies the trial period and other terms. Third-party license texts are in `notices/`.

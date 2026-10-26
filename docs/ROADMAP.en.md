@@ -1,19 +1,19 @@
-# Next phase
+# After Preview 2
 
 [Home](../README.md) · [繁體中文](ROADMAP.zh-TW.md)
 
-These are planned follow-up improvements, not features promised in the first preview. No delivery date is committed.
+These are priorities for the next round, not capabilities already supplied by this candidate. No dates are committed. Complete package, clean-account and cross-machine acceptance before expanding the scope.
 
-## Visible execution on the target
+## 1. Make execution nodes easier to install
 
-Show a real supported execution interface on the target computer: receipt of a task, available progress or tool output, and the final result. Link the initiating conversation, target view, and Hub record using the same task identifier. A background CLI task does not automatically appear in an existing Claude desktop conversation.
+First complete Gemini CLI, automatic App intake and isolated development for Windows binary deployments, reusing existing authorization, acceptance, sandbox and task flows. Toolchains and helpers must actually work; removing the frozen guard is not a solution. Validate dispatch, editing, tests, cancellation and reporting on a fresh node, then extend packaging and acceptance to macOS.
 
-Acceptance should include successful and failed work, cancellation state, disconnect/reconnect behavior, and redaction of private content. Use actual observable output; do not manufacture an agent's internal reasoning or display a simulated transcript as execution evidence. A later demo can show the lead and executing agents side by side with capture timing explained.
+## 2. Whole-package updates and recovery
 
-## Other follow-up work
+Source installations already have signed releases and staged updates; executable installations still update manually. A separate helper should download and verify a release, wait for idle, replace the whole package and check health, restoring the program and compatible data on failure. Also verify recovery after interruption while retaining accounts, settings and work data.
 
-- Validate customer-managed enterprise VPN and alternative network paths; current guidance centers on customer-managed Tailscale.
-- Improve update, recovery, and redacted diagnostics workflows.
-- Evaluate richer group administration and person-based roles separately from current device authentication.
+## 3. Make progress easier to follow
 
-For a production release, the current public trial still needs completed dependency notices and product terms, signing/distribution decisions, and clean-machine acceptance. See [release status](RELEASE_NOTES.en.md).
+Use the same task identifier across the initiating conversation, execution side and Hub. Distinguish intake, execution, approval waits, tests, reporting and reconciliation. Show only observed progress; background CLI work must not be presented as a native App conversation. Acceptance covers success, failure, cancellation, reconnect and privacy masking.
+
+Schedule code signing, macOS notarization, de-identified diagnostics and additional network paths according to trial feedback. Mobile, voice and a larger agent framework are not prerequisites for this round. [Current scope](RELEASE_NOTES.en.md)

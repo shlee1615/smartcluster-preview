@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:08,000
+Twenty percent off… only twenty cents? This two-hundred-dollar order comes to one ninety-nine eighty.
+
+2
+00:00:08,000 --> 00:00:22,000
+Here is the Hub: local, LAN and remote computers in one view. This example runs only on Primary Hub; the other nodes are connected.
+
+3
+00:00:22,000 --> 00:00:34,000
+Open a node to see its configured providers: Codex, Claude and Gemini. The Hub adds coordination. Each agent keeps its own tools.
+
+4
+00:00:34,000 --> 00:00:46,000
+Codex sends an English task through the Hub. Antigravity receives it automatically, and Gemini starts work in its own app.
+
+5
+00:00:46,000 --> 00:01:02,000
+Gemini reads the code and finds the mistake: the discount was subtracted as cash. It fixes one formula and leaves the existing tests unchanged.
+
+6
+00:01:02,000 --> 00:01:14,000
+The same five tests run again. All five pass. Work stays in the native app, with its normal tools and approval workflow.
+
+7
+00:01:14,000 --> 00:01:22,000
+Back to the same English checkout. Recalculate: one hundred and sixty dollars. That's more like it.
+
+8
+00:01:22,000 --> 00:01:36,000
+Claude's official CLI reviews this exact diff and test evidence. It finds no must-fix issues within this demonstration's scope.
+
+9
+00:01:36,000 --> 00:01:50,000
+The Hub returns the results to Codex: the change, the five test outcomes, and Claude's review. A clear record of what happened.
+
+10
+00:01:50,000 --> 00:02:00,000
+Keep working in your native agents. Add SmartCluster when you need coordination and a shared record.

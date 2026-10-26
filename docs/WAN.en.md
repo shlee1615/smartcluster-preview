@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [繁體中文](WAN.zh-TW.md) · [User guide](USER_GUIDE.en.md)
 
-The first preview provides Tailscale setup guidance, not a managed VPN. Current-version LAN testing passed; limited Tailscale testing exists for an older version. Current-version WAN and extended operation still require acceptance.
+Preview 2 provides Tailscale setup guidance, not a managed VPN. Candidate acceptance covers same-machine isolated multi-group/mTLS smoke; new-version LAN testing on separate physical computers, WAN and long-duration operation remain unverified. Earlier LAN and limited Tailscale pilots are historical evidence, not acceptance of this candidate.
 
 ## Accounts and responsibilities
 

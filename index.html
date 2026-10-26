@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SmartCluster: your agents, working together. Watch the English demo or choose Traditional Chinese narration.">
+  <title>SmartCluster — Your agents. Working together.</title>
+  <script>
+    const destination = new URL('preview2/', location.href);
+    destination.searchParams.set('lang', new URLSearchParams(location.search).get('lang') === 'zh-TW' ? 'zh-TW' : 'en');
+    destination.hash = location.hash;
+    location.replace(destination.href);
+  </script>
+  <style>body{font:18px/1.6 system-ui,sans-serif;max-width:44rem;margin:12vh auto;padding:2rem;background:#e7eddc;color:#102d29}a{color:inherit;margin-right:1.5rem}</style>
+</head>
+<body>
+  <h1>SmartCluster</h1>
+  <p>Your agents. Working together.</p>
+  <p><a href="preview2/?lang=en">English</a><a href="preview2/?lang=zh-TW" lang="zh-Hant">繁體中文</a></p>
+</body>
+</html>
